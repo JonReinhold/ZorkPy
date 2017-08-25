@@ -1,6 +1,7 @@
 # Introduction narration of game
 import string
 loop = 3
+
 while loop == 3:
 	print("---------------------------------------------------------")
 	print("Welcome to Zork - The Unofficial Python Version.")
