@@ -169,12 +169,9 @@ while loop == 3:
 			print("---------------------------------------------------------")
 			print("You throw yourself down the staircase as an attempt at suicide. You die.")
 			print("---------------------------------------------------------")
-			suicide_inp = input("Do you want to continue? Y/N ")
-			if suicide_inp.lower() == ("n"):
-				import os
-				quit(1)
-			if suicide_inp.lower() == ("y"):
-				loop = 3
+			#https://www.youtube.com/watch?v=WmLq87RU97w
+			quit(1)
+
 		if cave_inp.lower() == ("scale staircase"):
 			loop = 11
 		else:
